@@ -1,0 +1,506 @@
+{
+	"id": "e4531e6a-6a69-4565-9b51-f12a0eb3341d",
+	"name": "SWAPI- Testing Without a Map",
+	"timestamp": "2026-06-10T18:19:01.370Z",
+	"collection_id": "10442614-a7882d80-f4d3-481f-bb80-23c4ff9b6ad6",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-06-10T18:18:54.324Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1e9c4a7a-2ae1-4f9b-beb8-f1a00acf4f2b",
+			"name": "01 - Discover API Surface",
+			"url": "https://swapi.info/api/",
+			"time": 551,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				551
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b7b47453-bcc9-4daf-95a9-a7b46910833f",
+			"name": "02 - Films",
+			"url": "https://swapi.info/api/films",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				146
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e7cfa722-7565-4d8b-9ca4-5bf5a21756d7",
+			"name": "03 - People",
+			"url": "https://swapi.info/api/people",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				157
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "89bc6cf9-17dc-4c57-8fb3-33aaf547777c",
+			"name": "04 - Planets",
+			"url": "https://swapi.info/api/planets",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				147
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "711f3d1a-1135-433e-be1d-b065baf831c3",
+			"name": "05 - Species",
+			"url": "https://swapi.info/api/species",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				155
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "570f9102-2096-4f15-887d-eb5244dabf8d",
+			"name": "06 - Vehicles",
+			"url": "https://swapi.info/api/vehicles",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				149
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a96ea0a3-4c7d-4687-b456-7eff8998f832",
+			"name": "07 - Starships",
+			"url": "https://swapi.info/api/starships",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				160
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bacc125f-b1bc-4b3a-bfbd-27b979e5f4bf",
+			"name": "01 - Films Resources",
+			"url": "https://swapi.info/api/films/1",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				151
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "435f8a65-8cbe-4da9-b5fc-500dc19aaa88",
+			"name": "02 - People Resources",
+			"url": "https://swapi.info/api/people/1",
+			"time": 144,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				144
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "65e59ed8-c3ec-4b1b-937f-ede39d192a87",
+			"name": "03 - Planets Resources",
+			"url": "https://swapi.info/api/planets/1",
+			"time": 148,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				148
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "866ab316-c3eb-4995-9b19-b7d399f88056",
+			"name": "04 - Species Resources",
+			"url": "https://swapi.info/api/species/1",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				143
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "61b76de8-8e2b-41d0-b1ff-c9f4241c2688",
+			"name": "05 - Vehicles Resources",
+			"url": "https://swapi.info/api/vehicles/1",
+			"time": 282,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				282
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6affda80-7daa-4dcc-b893-2888ba3cee1b",
+			"name": "06 - Starships Resources",
+			"url": "https://swapi.info/api/starships/3",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				146
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f8b3d73a-df8b-4de9-aa05-c2d29466f0e3",
+			"name": "01 - People - Invalid ID",
+			"url": "https://swapi.info/api/people/-1",
+			"time": 370,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				370
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b6a649ab-3ec6-48cb-bc3b-c7252c8149d2",
+			"name": "02 - People - Nonexistent ID",
+			"url": "https://swapi.info/api/people/99999",
+			"time": 278,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				278
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d82e9093-363a-4f04-aec3-ebabeae7013f",
+			"name": "03 - Species - Invalid ID",
+			"url": "https://swapi.info/api/species/-1",
+			"time": 221,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				221
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0ac6ccda-67d6-4e52-8717-dee4ba70c59c",
+			"name": "04 - Species - Nonexistent ID",
+			"url": "https://swapi.info/api/species/9999999",
+			"time": 268,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				268
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6b8545ef-4f87-494b-87e6-a219f6cdfcd6",
+			"name": "01 - Investigate POST",
+			"url": "https://swapi.info/api/people",
+			"time": 485,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				485
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1ad227b7-eb07-4b73-b352-549e29a53364",
+			"name": "02 - Investigate PUT",
+			"url": "https://swapi.info/api/people/1",
+			"time": 277,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				277
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dfaccaaa-56da-4530-b9f4-95cb436dcb0b",
+			"name": "03 - Investigate DELETE",
+			"url": "https://swapi.info/api/people/1",
+			"time": 246,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				246
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "53ee3abb-4dca-4ae6-903b-c4b20b51795c",
+			"name": "04- Investigate OPTIONS",
+			"url": "https://swapi.info/api/people",
+			"time": 206,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dd3c84b8-798c-4abe-a0a8-5b42d3f2824b",
+			"name": "05 - Investigate HEAD",
+			"url": "https://swapi.info/api/people/1",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				143
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4973,
+	"collection": {
+		"requests": [
+			{
+				"id": "1e9c4a7a-2ae1-4f9b-beb8-f1a00acf4f2b",
+				"method": "GET"
+			},
+			{
+				"id": "b7b47453-bcc9-4daf-95a9-a7b46910833f",
+				"method": "GET"
+			},
+			{
+				"id": "e7cfa722-7565-4d8b-9ca4-5bf5a21756d7",
+				"method": "GET"
+			},
+			{
+				"id": "89bc6cf9-17dc-4c57-8fb3-33aaf547777c",
+				"method": "GET"
+			},
+			{
+				"id": "711f3d1a-1135-433e-be1d-b065baf831c3",
+				"method": "GET"
+			},
+			{
+				"id": "570f9102-2096-4f15-887d-eb5244dabf8d",
+				"method": "GET"
+			},
+			{
+				"id": "a96ea0a3-4c7d-4687-b456-7eff8998f832",
+				"method": "GET"
+			},
+			{
+				"id": "bacc125f-b1bc-4b3a-bfbd-27b979e5f4bf",
+				"method": "GET"
+			},
+			{
+				"id": "435f8a65-8cbe-4da9-b5fc-500dc19aaa88",
+				"method": "GET"
+			},
+			{
+				"id": "65e59ed8-c3ec-4b1b-937f-ede39d192a87",
+				"method": "GET"
+			},
+			{
+				"id": "866ab316-c3eb-4995-9b19-b7d399f88056",
+				"method": "GET"
+			},
+			{
+				"id": "61b76de8-8e2b-41d0-b1ff-c9f4241c2688",
+				"method": "GET"
+			},
+			{
+				"id": "6affda80-7daa-4dcc-b893-2888ba3cee1b",
+				"method": "GET"
+			},
+			{
+				"id": "f8b3d73a-df8b-4de9-aa05-c2d29466f0e3",
+				"method": "GET"
+			},
+			{
+				"id": "b6a649ab-3ec6-48cb-bc3b-c7252c8149d2",
+				"method": "GET"
+			},
+			{
+				"id": "d82e9093-363a-4f04-aec3-ebabeae7013f",
+				"method": "GET"
+			},
+			{
+				"id": "0ac6ccda-67d6-4e52-8717-dee4ba70c59c",
+				"method": "GET"
+			},
+			{
+				"id": "6b8545ef-4f87-494b-87e6-a219f6cdfcd6",
+				"method": "POST"
+			},
+			{
+				"id": "1ad227b7-eb07-4b73-b352-549e29a53364",
+				"method": "PUT"
+			},
+			{
+				"id": "dfaccaaa-56da-4530-b9f4-95cb436dcb0b",
+				"method": "DELETE"
+			},
+			{
+				"id": "53ee3abb-4dca-4ae6-903b-c4b20b51795c",
+				"method": "OPTIONS"
+			},
+			{
+				"id": "dd3c84b8-798c-4abe-a0a8-5b42d3f2824b",
+				"method": "HEAD"
+			}
+		]
+	}
+}
