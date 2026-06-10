@@ -1,0 +1,483 @@
+{
+	"info": {
+		"_postman_id": "a7882d80-f4d3-481f-bb80-23c4ff9b6ad6",
+		"name": "SWAPI- Testing Without a Map",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10442614"
+	},
+	"item": [
+		{
+			"name": "Discovering the System",
+			"item": [
+				{
+					"name": "01 - Discover API Surface",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "02 - Films",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/films",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"films"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "03 - People",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "04 - Planets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/planets",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"planets"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "05 - Species",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/species",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"species"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "06 - Vehicles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/vehicles",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"vehicles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "07 - Starships",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/starships",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"starships"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Exploring Available Reources",
+			"item": [
+				{
+					"name": "01 - Films Resources",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/films/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"films",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "02 - People Resources",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "03 - Planets Resources",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/planets/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"planets",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "04 - Species Resources",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/species/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"species",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "05 - Vehicles Resources",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/vehicles/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "06 - Starships Resources",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/starships/3",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"starships",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Exploring Boundaries",
+			"item": [
+				{
+					"name": "01 - People - Invalid ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people/-1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people",
+								"-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "02 - People - Nonexistent ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people/99999",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people",
+								"99999"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "03 - Species - Invalid ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/species/-1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"species",
+								"-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "04 - Species - Nonexistent ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/species/9999999",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"species",
+								"9999999"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "API Behavior",
+			"item": [
+				{
+					"name": "01 - Investigate POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "02 - Investigate PUT",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "03 - Investigate DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "04- Investigate OPTIONS",
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "05 - Investigate HEAD",
+					"request": {
+						"method": "HEAD",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.info/api/people/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"info"
+							],
+							"path": [
+								"api",
+								"people",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
